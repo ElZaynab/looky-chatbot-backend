@@ -1,0 +1,16 @@
+# Ignorer les fichiers de configuration et de cache
+*.log
+*.sqlite
+*.db
+*.pid
+*.swp
+
+# Ignorer les répertoires d'environnement virtuel (à tous les niveaux)
+**/venv/
+**/env/
+**/rasa_env/
+
+# Ignorer les fichiers de compilation Python
+**/__pycache__/
+**/*.pyc
+
