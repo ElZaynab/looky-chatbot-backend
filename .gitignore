@@ -5,19 +5,12 @@
 *.pid
 *.swp
 
-# Ignorer les répertoires d'environnement virtuel
+# Ignorer les répertoires d'environnement virtuel (à tous les niveaux)
 **/venv/
 **/env/
+**/rasa_env/
 
-# Ignorer les fichiers de compilation
+# Ignorer les fichiers de compilation Python
 **/__pycache__/
+**/*.pyc
 
-# Ignorer les fichiers de configuration Docker
-**/Dockerfile
-**/docker-compose.yml
-
-# Ignorer les répertoires de service
-gateway/
-nlp-service/
-ticket-service/
-user-service/
