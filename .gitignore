@@ -1,0 +1,23 @@
+# Ignorer les fichiers de configuration et de cache
+*.log
+*.sqlite
+*.db
+*.pid
+*.swp
+
+# Ignorer les répertoires d'environnement virtuel
+**/venv/
+**/env/
+
+# Ignorer les fichiers de compilation
+**/__pycache__/
+
+# Ignorer les fichiers de configuration Docker
+**/Dockerfile
+**/docker-compose.yml
+
+# Ignorer les répertoires de service
+gateway/
+nlp-service/
+ticket-service/
+user-service/
